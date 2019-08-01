@@ -66,6 +66,7 @@ In our case, we used 600 steps in the training.
 
 We evaluate the model by calculating precision, recall and f1-score for each one of the labels we have. 
 
+```
               precision    recall  f1-score   support
 
        B-eml       0.92      0.73      0.81        15
@@ -87,7 +88,7 @@ We evaluate the model by calculating precision, recall and f1-score for each one
    micro avg       0.76      0.76      0.76       560
    macro avg       0.69      0.54      0.59       560
 weighted avg       0.76      0.76      0.75       560
-
+```
 
 such as :
 
