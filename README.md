@@ -25,13 +25,17 @@ Next, we need to convert these txt files into 2 csv files (train and test), each
 
 The csv file should look like this:
 
-![test_dataset_BIO](test_dataset_BIO.png)
+<p align="center">
+  <img width="247" height="300" src="test_dataset_BIO.png">
+</p>
 
 Note that between two business cards, there is always a dot separating them.
 The labelling is done manually directly into the csv file.
 SpaCy requires the training data to be in the following format:
 
-![SpaCy_format](SpaCy_format.png)
+<p align="center">
+  <img width="608" height="381" src="SpaCy_format.png">
+</p>
 
 So, we have to convert our data which is in .csv format to the above format. We first convert the .csv file to .tsv file. Next, we run tsv_to_json.py to get the training data in. json format.
 The next step is to convert the json file into the format needed by spaCy. It can be done by running
